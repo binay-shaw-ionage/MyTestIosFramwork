@@ -9,7 +9,7 @@ public struct SDKView: View {
     
     public var body: some View {
         VStack {
-            Text("SDK Demo Screen")
+            Text("SDK Demo Screen App")
                 .font(.largeTitle)
                 .padding()
             
