@@ -3,7 +3,6 @@ import PackageDescription
 
 let package = Package(
     name: "MyTestIosFramwork",
-    platforms: [.iOS(.v15)],
     products: [
         .library(
             name: "MyTestIosFramwork",
