@@ -10,8 +10,6 @@
 		4602B43B2CB57C6D00EB0D31 /* MyTestIosFramwork.docc in Sources */ = {isa = PBXBuildFile; fileRef = 4602B43A2CB57C6D00EB0D31 /* MyTestIosFramwork.docc */; };
 		4602B4412CB57C6D00EB0D31 /* MyTestIosFramwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4602B4362CB57C6D00EB0D31 /* MyTestIosFramwork.framework */; };
 		4602B4462CB57C6D00EB0D31 /* MyTestIosFramworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4602B4452CB57C6D00EB0D31 /* MyTestIosFramworkTests.swift */; };
-		4602B4512CB57CD600EB0D31 /* SDKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4602B4502CB57CD600EB0D31 /* SDKView.swift */; };
-		4602B4532CB57CEC00EB0D31 /* SDKBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4602B4522CB57CEC00EB0D31 /* SDKBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,8 +27,6 @@
 		4602B43A2CB57C6D00EB0D31 /* MyTestIosFramwork.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MyTestIosFramwork.docc; sourceTree = "<group>"; };
 		4602B4402CB57C6D00EB0D31 /* MyTestIosFramworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTestIosFramworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4602B4452CB57C6D00EB0D31 /* MyTestIosFramworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTestIosFramworkTests.swift; sourceTree = "<group>"; };
-		4602B4502CB57CD600EB0D31 /* SDKView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKView.swift; sourceTree = "<group>"; };
-		4602B4522CB57CEC00EB0D31 /* SDKBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKBuilder.swift; sourceTree = "<group>"; };
 		4602B4D92CB5884200EB0D31 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,7 +70,6 @@
 		4602B4382CB57C6D00EB0D31 /* MyTestIosFramwork */ = {
 			isa = PBXGroup;
 			children = (
-				461082612CB641DE0010B2F5 /* Sources */,
 				4602B43A2CB57C6D00EB0D31 /* MyTestIosFramwork.docc */,
 				4602B4D92CB5884200EB0D31 /* Package.swift */,
 			);
@@ -87,15 +82,6 @@
 				4602B4452CB57C6D00EB0D31 /* MyTestIosFramworkTests.swift */,
 			);
 			path = MyTestIosFramworkTests;
-			sourceTree = "<group>";
-		};
-		461082612CB641DE0010B2F5 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				4602B4502CB57CD600EB0D31 /* SDKView.swift */,
-				4602B4522CB57CEC00EB0D31 /* SDKBuilder.swift */,
-			);
-			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,8 +193,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4602B43B2CB57C6D00EB0D31 /* MyTestIosFramwork.docc in Sources */,
-				4602B4512CB57CD600EB0D31 /* SDKView.swift in Sources */,
-				4602B4532CB57CEC00EB0D31 /* SDKBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,7 +409,6 @@
 		4602B44E2CB57C6D00EB0D31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8RSYZ4S4BD;
@@ -442,7 +425,6 @@
 		4602B44F2CB57C6D00EB0D31 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8RSYZ4S4BD;
