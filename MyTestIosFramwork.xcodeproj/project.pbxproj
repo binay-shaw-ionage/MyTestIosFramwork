@@ -52,6 +52,7 @@
 		4602B42C2CB57C6D00EB0D31 = {
 			isa = PBXGroup;
 			children = (
+				4602B4D92CB5884200EB0D31 /* Package.swift */,
 				4602B4382CB57C6D00EB0D31 /* MyTestIosFramwork */,
 				4602B4442CB57C6D00EB0D31 /* MyTestIosFramworkTests */,
 				4602B4372CB57C6D00EB0D31 /* Products */,
@@ -71,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				4602B43A2CB57C6D00EB0D31 /* MyTestIosFramwork.docc */,
-				4602B4D92CB5884200EB0D31 /* Package.swift */,
 			);
 			path = MyTestIosFramwork;
 			sourceTree = "<group>";
