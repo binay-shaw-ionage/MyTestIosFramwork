@@ -74,9 +74,8 @@
 		4602B4382CB57C6D00EB0D31 /* MyTestIosFramwork */ = {
 			isa = PBXGroup;
 			children = (
+				461082612CB641DE0010B2F5 /* Sources */,
 				4602B43A2CB57C6D00EB0D31 /* MyTestIosFramwork.docc */,
-				4602B4502CB57CD600EB0D31 /* SDKView.swift */,
-				4602B4522CB57CEC00EB0D31 /* SDKBuilder.swift */,
 				4602B4D92CB5884200EB0D31 /* Package.swift */,
 			);
 			path = MyTestIosFramwork;
@@ -88,6 +87,15 @@
 				4602B4452CB57C6D00EB0D31 /* MyTestIosFramworkTests.swift */,
 			);
 			path = MyTestIosFramworkTests;
+			sourceTree = "<group>";
+		};
+		461082612CB641DE0010B2F5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4602B4502CB57CD600EB0D31 /* SDKView.swift */,
+				4602B4522CB57CEC00EB0D31 /* SDKBuilder.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
