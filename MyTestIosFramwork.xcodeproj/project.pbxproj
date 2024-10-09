@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4602B43B2CB57C6D00EB0D31 /* MyTestIosFramwork.docc in Sources */ = {isa = PBXBuildFile; fileRef = 4602B43A2CB57C6D00EB0D31 /* MyTestIosFramwork.docc */; };
 		4602B4412CB57C6D00EB0D31 /* MyTestIosFramwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4602B4362CB57C6D00EB0D31 /* MyTestIosFramwork.framework */; };
 		4602B4462CB57C6D00EB0D31 /* MyTestIosFramworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4602B4452CB57C6D00EB0D31 /* MyTestIosFramworkTests.swift */; };
+		4604B02F2CB64A880045F671 /* SDKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4604B02E2CB64A880045F671 /* SDKView.swift */; };
+		4604B0302CB64A880045F671 /* SDKBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4604B02D2CB64A880045F671 /* SDKBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,10 +25,11 @@
 
 /* Begin PBXFileReference section */
 		4602B4362CB57C6D00EB0D31 /* MyTestIosFramwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyTestIosFramwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4602B43A2CB57C6D00EB0D31 /* MyTestIosFramwork.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MyTestIosFramwork.docc; sourceTree = "<group>"; };
 		4602B4402CB57C6D00EB0D31 /* MyTestIosFramworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTestIosFramworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4602B4452CB57C6D00EB0D31 /* MyTestIosFramworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTestIosFramworkTests.swift; sourceTree = "<group>"; };
 		4602B4D92CB5884200EB0D31 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		4604B02D2CB64A880045F671 /* SDKBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKBuilder.swift; sourceTree = "<group>"; };
+		4604B02E2CB64A880045F671 /* SDKView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +73,8 @@
 		4602B4382CB57C6D00EB0D31 /* MyTestIosFramwork */ = {
 			isa = PBXGroup;
 			children = (
-				4602B43A2CB57C6D00EB0D31 /* MyTestIosFramwork.docc */,
+				4604B02D2CB64A880045F671 /* SDKBuilder.swift */,
+				4604B02E2CB64A880045F671 /* SDKView.swift */,
 			);
 			path = MyTestIosFramwork;
 			sourceTree = "<group>";
@@ -192,7 +195,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4602B43B2CB57C6D00EB0D31 /* MyTestIosFramwork.docc in Sources */,
+				4604B02F2CB64A880045F671 /* SDKView.swift in Sources */,
+				4604B0302CB64A880045F671 /* SDKBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
