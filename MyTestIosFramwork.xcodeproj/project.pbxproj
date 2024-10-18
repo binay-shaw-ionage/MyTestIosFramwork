@@ -54,9 +54,9 @@
 		4602B42C2CB57C6D00EB0D31 = {
 			isa = PBXGroup;
 			children = (
-				4604B0312CB686E00045F671 /* Sources */,
+				461131DB2CC257100044E591 /* Tests */,
 				4602B4D92CB5884200EB0D31 /* Package.swift */,
-				4602B4442CB57C6D00EB0D31 /* MyTestIosFramworkTests */,
+				4604B0312CB686E00045F671 /* Sources */,
 				4602B4372CB57C6D00EB0D31 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,6 +93,14 @@
 				4602B4382CB57C6D00EB0D31 /* MyTestIosFramwork */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		461131DB2CC257100044E591 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4602B4442CB57C6D00EB0D31 /* MyTestIosFramworkTests */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
