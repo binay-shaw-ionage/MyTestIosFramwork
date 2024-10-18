@@ -1,24 +1,20 @@
-// swift-tools-version:5.9
+// swift-tools-version: 5.8
 import PackageDescription
 
 let package = Package(
     name: "MyTestIosFramework",
     platforms: [
-        .iOS(.v14)
+        .iOS(.v13)
     ],
     products: [
         .library(
             name: "MyTestIosFramework",
             targets: ["MyTestIosFramework"]
-        ),
-    ],
-    dependencies: [
-        // Add any dependencies here if needed
+        )
     ],
     targets: [
         .target(
             name: "MyTestIosFramework",
-            dependencies: [],
             path: "Sources/MyTestIosFramework"
         ),
         .testTarget(
